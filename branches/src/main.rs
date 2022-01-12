@@ -1,10 +1,10 @@
+use std::input;
 fn main() {
-    let x = 5;
-    if x < 5 {
-        println!("value is less than 5")
-    } else if x == 5 {
-        println!("value is equal to 5")
-    } else {
-        println!("value is greater than 5")
+    let a = [1, 2, 3, 4, 5];
+
+    for n in (1..10).rev() {
+        println!("{}", n);
     }
+
+    println!("FINISHED");
 }
