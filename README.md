@@ -1,0 +1,2 @@
+# rust-way
+learning rust
